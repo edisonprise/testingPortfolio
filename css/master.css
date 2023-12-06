@@ -1,0 +1,193 @@
+*{
+    background-color: rgb(238, 207, 173);
+    /*color: black;*/
+}
+
+body {
+    display: block;
+    
+}
+
+img {
+    border-top: 20px;
+    border-bottom: 20px;
+    display: block;
+    unicode-bidi: isolate;
+    margin-top: 10px;
+    margin-bottom: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    width: 100%;
+    height: 380px;
+    padding: 60px;
+}
+
+.hero{
+   display: block;
+   padding: 2rem 1rem 0.25rem;;
+   width: 100%;
+   position: layer;
+}
+
+p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    color: #494949;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 400;
+
+}
+
+.page-subtitle{
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+p.page-title{
+    text-align: center;
+    font-size: 3.5em;
+    font-family: Roboto light, sans-serif;
+    color:blue;
+    font-weight: 400;
+}
+
+.bio-block{
+    padding: 50px;
+    text-align: center;
+    color: black;
+}
+
+p.section-heading{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 1.6em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.section-subheading{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.section-smallheading{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 1.2rem;
+}
+
+ul {
+    padding-top: 0in;
+    padding-right: 0in;
+    padding-bottom: 0in;
+    padding-left: 0in;
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.h-100{
+    height: 100% important!;
+    text-align: center;
+}
+
+hr{
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    border-image: none;
+    font-size: 1.2rem;
+    border-top-style: dotted;
+    overflow: visible;
+    width: 7%;
+}
+
+.applet-div{
+    display: block;
+    text-align: center;
+    color: black;
+    padding-top: 0.8rem;
+    padding-right: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.card-body, [class~=card-title] {
+    text-align: center;
+}
+
+.card-title{
+    color: black;
+    font-weight: bold;
+}
+
+.card-text{
+    color: black;
+    
+}
+
+#query-form{
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+.button{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.points{
+    display: block;
+}
+
+.card-image-top{
+    width: 40rem;
+    height: 700px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ul li:before {
+    content: '\2605';
+    margin: 0 1em;
+}
+
+::after, ::before {
+    box-sizing: border-box;
+}
+
+.copyright-text{
+    text-align: center;
+}
