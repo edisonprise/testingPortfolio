@@ -130,6 +130,17 @@ ul {
     text-align: center;
 }
 
+.card{
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    border-image: none;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
 hr{
     display: block;
     unicode-bidi: isolate;
@@ -140,6 +151,8 @@ hr{
     border-image: none;
     font-size: 1.2rem;
     border-top-style: dotted;
+    border-top-width: 0.5rem ;
+    border-top-color: #fff;
     overflow: visible;
     width: 7%;
 }
@@ -188,16 +201,13 @@ input {
     margin-left: 20px;
 }
 
-.points{
-    display: block;
-}
-
 .card-image-top{
     width: 40rem;
     height: 700px;
 }
 
 ul {
+    display: table;
     list-style: none;
 }
 
