@@ -70,7 +70,7 @@ p1::before, p1:after {
     position: absolute;
     top: -.25rem;
     left: 50%;
-    transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(var(--scale));
+    transform: translateX(50%) translateY(var(--translate-y, 0)) scale(var(--scale));
     transition: 150ms transform;
     transform-origin: bottom center;
     font-weight: 100;
@@ -82,7 +82,7 @@ p1::before {
     content: attr(data-tooltip);
     color: white;
     padding: 1rem;
-    border-radius: .3rem;
+    border-radius: 1.2rem;
     text-align: center;
     width: max-content;
     max-width: 100%;
@@ -275,9 +275,34 @@ ul li:before {
     margin: 0 1em;
 }
 
-::after, ::before {
+/* ::after, ::before {
     box-sizing: border-box;
+} */
+
+/* Selector corregido para el elemento a con el id #tt */
+a#tt {
+    position: relative;
 }
+
+/* Pseudoclase :hover para el elemento a con el id #tt */
+a#tt:hover::after {
+    content: attr(data-tooltip);
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 14px;
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    z-index: 1;
+}
+
+
 
 .copyright-text{
     text-align: center;
