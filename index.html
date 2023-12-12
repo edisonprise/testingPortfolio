@@ -59,16 +59,20 @@
         <form id="query-form">
         <div>
             <label for="plant">Enter the name of a plant:</label>
-            <input class="textfield" id="plant" type="text" name="plant" placeholder="Ej: Orchidea"/>
+            <input class="textfield" id="nombrePlanta" type="text" name="plant" placeholder="Ej: Orchidea"/>
         </div>
         
         <div>
             <label for="animal">Enter the name of an animal:</label>
-            <input class="textfield" id="animal" type="text" name="animal" placeholder="Ej: Delfin"/>
+            <input class="textfield" id="nombreAnimal" type="text" name="animal" placeholder="Ej: Delfin"/>
         </div>
+        <br>
+        <p class="section-heading" id="tituloPoesia"></p>
+        <p id="poesia"></p>
+        <p id="poesiaError" class="error-message"></p>
         <div class="button">
-            <input type="button"class="btn btn-warning" value="Reset"/>
-            <input type="button" class="btn btn-primary" value="Make/Remake"/>
+            <input type="button"class="btn btn-warning" value="Reset" onclick="resetear()"/>
+            <input type="button" class="btn btn-primary" value="Make/Remake" onclick="crearPoesia()"/>
         </div>
     </form>
     <p1 data-tooltip="These tags tell you what technologies I use" data-placement="bottom" title onclick="javascript: toolTipReset()" data-original-title="These tags tell you what technologies I use">
@@ -125,15 +129,15 @@
         <p class="copyright-text">Copyright Edinson Cespedes 2023</p>
     </footer>
 </div>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="./js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script>
+<!-- <script>
     const tooltips = document.querySelectorAll('#tt')
     tooltips.forEach(t=> {
         new bootstrap.Tooltip(t)
     })
-</script>
+</script> -->
   </body>
   
 </html>
